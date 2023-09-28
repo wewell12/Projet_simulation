@@ -1,0 +1,16 @@
+// Données nessescaire par un simulateur population centré
+// si concentration non donnée -> = 0
+// si duree non donnée -> = 100
+E : S1 + S2 -> p1 | 3.2 mM, 800 uM - 150;
+E : S1 -> p1 + p2 | 3 mM - 120;
+[E] = 20 uM;
+[S1] = 1 mM;
+[S2] = 2 mM;
+duree = 500; // 500 secondes
+// Données nessescaire à ajouter pour une simulation entité centré
+// si diamètre ou vitesse non donnée -> = 1
+diametre(E) = 5 ;
+vitesse(E) = 0.1;
+diametre(S1) = 1;
+diametre(S2) = 1;
+diametre(p1) = 1;

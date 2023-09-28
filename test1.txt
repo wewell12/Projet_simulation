@@ -1,0 +1,21 @@
+// Exemple de cascade de deux reactions enzymatiques
+
+[E1] = 0.1 uM;
+[E2] = 0.1 uM;
+[s] = 0.1 uM;
+
+// les concentrations sont tres faibles pour ne pas avoir trop de
+// copies de molecules (moins que 1100)  pour que le simulateur
+// entite-centre ne soit pas trop lent
+
+duree = 10;
+
+E1 : s -> inter | 50 mM - 240;
+E2 : inter -> p | 0.2 mM - 100;
+
+diametre (s) = 1;	// 1 nano-metre
+diametre (inter) = 1;	// 1 nano-metre
+diametre (p) = 1;	// 1 nano-metre
+
+vitesse (E1) = 0.5;
+vitesse (E2) = 1;
