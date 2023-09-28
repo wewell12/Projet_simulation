@@ -227,8 +227,8 @@ représenter les types de molécules mais nous n’avons pas eu assez de temps p
 
 ## Utilisation :
 Pour utiliser les simulateurs, il faut taper les commandes suivantes dans la console :  
-<div align="center"> g++ Projet.cpp -o exe  
-./exe test.txt </div>  
+<div align="center"> g++ Projet.cpp -o exe </div>    
+<div align="center"> ./exe test.txt </div>  
 où test.txt est le fichier contenant les informations de l’expérience qu’il faut donner en
 entrée.  
 Afin de choisir le simulateur il faut décommenter les lignes dans le fichier Projet.cpp :  
