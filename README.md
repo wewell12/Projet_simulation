@@ -158,7 +158,7 @@ autorisées est utilisée. Les expressions acceptées sont :
 - Les réactions : “E1 : s -> inter | 50 mM - 240;”
 
 Le premier objectif est donc de savoir laquelle de ces expressions nous sommes en train de
-lire. Pour cela nous regarderons la première unité lexicale :
+lire. Pour cela nous regarderons la première unité lexicale :  
 <img width="299" alt="image" src="https://github.com/wewell12/Projet_simulation/assets/62216124/fb57978a-d4fa-4bc2-9c8d-c291c6d0c121">  
 
 Ensuite, le second objectif est de vérifier que l’expression est bien écrite, nous prenons
