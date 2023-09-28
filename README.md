@@ -18,3 +18,12 @@
 **Résultats**   
 **Utilisation**  
 **Discussions**
+  
+
+ ## Contexte :
+Notre projet de TER consiste à simuler les réactions produites entre des molécules
+dans une vésicule dans l’objectif de tester les biomarqueurs correspondant à certaines
+maladies. Le but est de tester les biomarqueurs de manière booléenne afin de déterminer si
+une personne est atteinte d’une certaine maladie selon les taux des différents biomarqueurs.
+Cette technique consiste à mesurer la concentration d’un biomarqueur , si celle-ci est
+supérieure à un seuil fixé alors la personne peut être déclarée malade.
