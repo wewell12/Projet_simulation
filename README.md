@@ -234,7 +234,7 @@ entrée.
 Afin de choisir le simulateur il faut décommenter les lignes dans le fichier Projet.cpp :  
 - 826 pour le simulateur entité centrée
 - 831 pour le simulateur population centrée
-⚠️ il reste des bugs qui empêche le simulateur entité-centrée de fonctionner
+⚠️ Le simulateur entité-centrée n'a pas pu etre tester a cause de la lourdeur des calculs
 
 ## Discussions :
 Tout d’abord concernant les simulateurs, on peut dire que le simulateur est moins
